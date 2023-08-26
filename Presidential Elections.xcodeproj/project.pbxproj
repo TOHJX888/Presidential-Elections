@@ -14,6 +14,9 @@
 		998BE0422A998AEF00138DB0 /* Presidential_ElectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BE0412A998AEF00138DB0 /* Presidential_ElectionsTests.swift */; };
 		998BE04C2A998AEF00138DB0 /* Presidential_ElectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BE04B2A998AEF00138DB0 /* Presidential_ElectionsUITests.swift */; };
 		998BE04E2A998AEF00138DB0 /* Presidential_ElectionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BE04D2A998AEF00138DB0 /* Presidential_ElectionsUITestsLaunchTests.swift */; };
+		998BE05B2A998C4F00138DB0 /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BE05A2A998C4F00138DB0 /* Candidate.swift */; };
+		998BE05D2A998C6900138DB0 /* Candidates+SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BE05C2A998C6900138DB0 /* Candidates+SampleData.swift */; };
+		998BE0612A99966F00138DB0 /* CandidatesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BE0602A99966F00138DB0 /* CandidatesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		998BE0472A998AEF00138DB0 /* Presidential ElectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Presidential ElectionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		998BE04B2A998AEF00138DB0 /* Presidential_ElectionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presidential_ElectionsUITests.swift; sourceTree = "<group>"; };
 		998BE04D2A998AEF00138DB0 /* Presidential_ElectionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presidential_ElectionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		998BE05A2A998C4F00138DB0 /* Candidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
+		998BE05C2A998C6900138DB0 /* Candidates+SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candidates+SampleData.swift"; sourceTree = "<group>"; };
+		998BE0602A99966F00138DB0 /* CandidatesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				998BE0302A998AEB00138DB0 /* Presidential_ElectionsApp.swift */,
-				998BE0322A998AEB00138DB0 /* ContentView.swift */,
+				998BE05F2A99963800138DB0 /* Views */,
+				998BE05E2A99961600138DB0 /* Model+ViewModel */,
 				998BE0342A998AEF00138DB0 /* Assets.xcassets */,
 				998BE0362A998AEF00138DB0 /* Preview Content */,
 			);
@@ -125,6 +132,24 @@
 				998BE04D2A998AEF00138DB0 /* Presidential_ElectionsUITestsLaunchTests.swift */,
 			);
 			path = "Presidential ElectionsUITests";
+			sourceTree = "<group>";
+		};
+		998BE05E2A99961600138DB0 /* Model+ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				998BE05A2A998C4F00138DB0 /* Candidate.swift */,
+				998BE05C2A998C6900138DB0 /* Candidates+SampleData.swift */,
+				998BE0602A99966F00138DB0 /* CandidatesManager.swift */,
+			);
+			path = "Model+ViewModel";
+			sourceTree = "<group>";
+		};
+		998BE05F2A99963800138DB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				998BE0322A998AEB00138DB0 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998BE0612A99966F00138DB0 /* CandidatesManager.swift in Sources */,
+				998BE05B2A998C4F00138DB0 /* Candidate.swift in Sources */,
+				998BE05D2A998C6900138DB0 /* Candidates+SampleData.swift in Sources */,
 				998BE0332A998AEB00138DB0 /* ContentView.swift in Sources */,
 				998BE0312A998AEB00138DB0 /* Presidential_ElectionsApp.swift in Sources */,
 			);
