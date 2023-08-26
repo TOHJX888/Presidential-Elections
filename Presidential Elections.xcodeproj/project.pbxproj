@@ -17,6 +17,7 @@
 		998BE05B2A998C4F00138DB0 /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BE05A2A998C4F00138DB0 /* Candidate.swift */; };
 		998BE05D2A998C6900138DB0 /* Candidates+SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BE05C2A998C6900138DB0 /* Candidates+SampleData.swift */; };
 		998BE0612A99966F00138DB0 /* CandidatesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BE0602A99966F00138DB0 /* CandidatesManager.swift */; };
+		998BE0632A9999BB00138DB0 /* CandidateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BE0622A9999BB00138DB0 /* CandidateDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		998BE05A2A998C4F00138DB0 /* Candidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
 		998BE05C2A998C6900138DB0 /* Candidates+SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candidates+SampleData.swift"; sourceTree = "<group>"; };
 		998BE0602A99966F00138DB0 /* CandidatesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesManager.swift; sourceTree = "<group>"; };
+		998BE0622A9999BB00138DB0 /* CandidateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				998BE0322A998AEB00138DB0 /* ContentView.swift */,
+				998BE0622A9999BB00138DB0 /* CandidateDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				998BE0612A99966F00138DB0 /* CandidatesManager.swift in Sources */,
+				998BE0632A9999BB00138DB0 /* CandidateDetailView.swift in Sources */,
 				998BE05B2A998C4F00138DB0 /* Candidate.swift in Sources */,
 				998BE05D2A998C6900138DB0 /* Candidates+SampleData.swift in Sources */,
 				998BE0332A998AEB00138DB0 /* ContentView.swift in Sources */,
